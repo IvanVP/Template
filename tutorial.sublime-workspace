@@ -1,0 +1,232 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bra",
+				"border-radius"
+			],
+			[
+				"lt",
+				"lt	ERB link_to"
+			],
+			[
+				"er",
+				"er	embed ruby ERB"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"selected_items":
+		[
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ivan/Документы/Install Ruby_Rails",
+		"/home/ivan/.profile",
+		"/home/ivan/work/rt/Gemfile",
+		"/home/ivan/.bashrc",
+		"/home/ivan/work/sap/Gemfile",
+		"/home/ivan/.gemrc",
+		"/home/ivan/.rvm/installed.at",
+		"/home/ivan/Рабочий стол/Безымянный документ",
+		"/home/ivan/.bash_profile",
+		"/home/ivan/Рабочий стол/Install Ruby_Rails",
+		"/home/ivan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/ivan/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/ivan/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ivan/.config/sublime-text-2/Packages/Emmet/Emmet.sublime-settings",
+		"/home/ivan/work/rt/public/stylesheets/custom.css",
+		"/home/ivan/work/rt/public/stylesheets/blueprint/print.css",
+		"/home/ivan/work/rt/public/stylesheets/blueprint/screen.css",
+		"/home/ivan/work/rt/app/helpers/application_helper.rb",
+		"/home/ivan/work/rt/app/views/users/index.html.erb",
+		"/home/ivan/work/rt/app/models/user.rb",
+		"/home/ivan/work/rt/app/models/micropost.rb",
+		"/home/ivan/work/rt/app/views/users/_form.html.erb",
+		"/home/ivan/.config/sublime-text-2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/ivan/work/lcms/app/views/demo/hello.html.erb",
+		"/home/ivan/work/lcms/app/controllers/application_controller.rb",
+		"/home/ivan/work/lcms/app/views/demo/index.html.erb",
+		"/home/ivan/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/ivan/.config/sublime-text-2/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/home/ivan/.config/sublime-text-2/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/ivan/work/lcms/public/index.html",
+		"/home/ivan/work/lcms/app/views/layouts/application.html.erb",
+		"/home/ivan/work/lcms/config/database.yml",
+		"/home/ivan/work/lcms/config/routes.rb",
+		"/home/ivan/work/lcms/public/demo/index.html",
+		"/home/ivan/work/edu/test.html",
+		"/home/ivan/work/edu/test.rb",
+		"/home/ivan/work/blog/Rakefile",
+		"/home/ivan/work/blog/Gemfile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"spec",
+			"some_path",
+			"News",
+			"Some",
+			"side",
+			"some_path",
+			"Some",
+			"Page",
+			"Some",
+			"screen",
+			"hello",
+			"ctrl+alt+n",
+			"test",
+			"cmd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"spec",
+				"app/assets/stylesheets/pages.css.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true
+}
