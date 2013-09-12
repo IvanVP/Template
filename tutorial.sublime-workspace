@@ -76,6 +76,13 @@
 	},
 	"file_history":
 	[
+		"/home/ivan/work/rtut/Gemfile",
+		"/home/ivan/work/rtut/spec/spec_helper.rb",
+		"/home/ivan/work/rtut/git/.config",
+		"/home/ivan/work/rtut/.gitignore",
+		"/home/ivan/work/rtut/README.rdoc",
+		"/home/ivan/work/rtut/Gemfile.lock",
+		"/home/ivan/work/tmpl/.gitignore",
 		"/home/ivan/Документы/Install Ruby_Rails",
 		"/home/ivan/.profile",
 		"/home/ivan/work/rt/Gemfile",
@@ -131,6 +138,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"LF",
 			"spec",
 			"some_path",
 			"News",
