@@ -46,14 +46,12 @@ end
 
 # Use debugger
 gem 'debugger', group: [:development, :test]
-group :development do
+group :development, :test do
 	gem "rspec-rails", "~> 2.14.0"
 	gem 'sqlite3'
 	
 end
 group :test do
-	gem "rspec-rails", "~> 2.14.0"
-	gem 'sqlite3'
 	gem "spork", "~> 0.9.2"
 	gem 'capybara', '1.1.2'
 end
