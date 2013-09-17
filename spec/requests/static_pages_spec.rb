@@ -1,59 +1,58 @@
 require 'spec_helper'
 
 describe "StaticPages" do
+
+  subject {page}
+
+  #let(:base_title) { "MyTemplate" }
+
   describe "Home page" do
+    before {visit root_path}
 
-    it "should have the content 'Template'" do
-      visit '/static_pages/home'
-      page.should have_content('Template')
-    end
-
-    it "should have the right title" do
-      visit '/static_pages/home'
-      page.should have_selector('title',
-                                :text => "MyTemplate | Home")
-    end
+    it { should have_content( 'Welcome to the Template') }
+    it { should have_selector( 'h1', text: 'Welcome to the Template') }
+    it  { should_not have_selector('title', text: "| Home") }
   end
 
   describe "Help page" do
 
     it "should have the content 'Help'" do
-      visit '/static_pages/help'
+      visit help_path
       page.should have_content('Help')
     end
 
     it "should have the right title" do
-      visit '/static_pages/help'
+      visit help_path
       page.should have_selector('title',
-                                :text => "MyTemplate | Help")
+                                :text => "| Help")
     end
   end
 
   describe "About page" do
 
     it "should have the content 'About Us'" do
-      visit '/static_pages/about'
+      visit about_path
       page.should have_content('About Us')
     end
 
     it "should have the right title" do
-      visit '/static_pages/about'
+      visit about_path
       page.should have_selector('title',
-                                :text => "MyTemplate | About Us")
+                                :text => "| About Us")
     end
   end
 
   describe "Contact page" do
 
     it "should have the content 'Contact'" do
-      visit '/static_pages/contact'
+      visit contact_path
       page.should have_content('Contact')
     end
 
     it "should have the right title" do
-      visit '/static_pages/contact'
+      visit contact_path
       page.should have_selector('title',
-                                :text => "MyTemplate | Contact")
+                                :text => "| Contact")
     end
   end
 end
