@@ -5,7 +5,7 @@ gem 'rails', '4.0.0'
 
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
 gem "bootstrap-sass", "~> 2.3.2.2"
 
 gem "pg", "~> 0.16.0"
@@ -61,4 +61,8 @@ end
 # We must use $ bundle install --without production
 group :production do
  gem "pg", "~> 0.16.0"
+end
+
+group :development do
+  gem 'annotate', '~> 2.5.0'
 end
