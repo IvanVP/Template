@@ -6,8 +6,8 @@
 development:
   adapter: sqlite3
   database: db/development.sqlite3
-  # adapter: pg
-  #database: db/development.postgresql
+  #adapter: postgresql
+  #database: db/testdevdb
   pool: 5
   timeout: 5000
 
@@ -17,13 +17,13 @@ development:
 test:
   adapter: sqlite3
   database: db/test.sqlite3
- # adapter: pg
- # database: db/test.postgresql
+  #adapter: postgresql
+  #database: db/testtestdb
   pool: 5
   timeout: 5000
 
 production:
   adapter: postgresql
-  database: testproddb
+  database: db/testproddb
   pool: 5
   timeout: 5000

@@ -8,7 +8,7 @@ gem 'rails', '4.0.0'
 gem 'sqlite3'
 gem "bootstrap-sass", "~> 2.3.2.2"
 
-#gem "pg", "~> 0.16.0"
+gem "pg", "~> 0.16.0"
 
 
 # Use SCSS for stylesheets
@@ -60,5 +60,5 @@ end
 
 # We must use $ bundle install --without production
 group :production do
- gem "pg"
+ gem "pg", "~> 0.16.0"
 end
