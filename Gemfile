@@ -60,5 +60,5 @@ end
 
 # We must use $ bundle install --without production
 group :production do
- gem "pg", "~> 0.16.0"
+ gem "pg"
 end
