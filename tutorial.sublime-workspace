@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"Contact"
+			],
+			[
 				"cont",
 				"contact"
 			],
@@ -28,18 +32,42 @@
 	"buffers":
 	[
 		{
-			"file": "spec/requests/static_pages_spec.rb",
+			"file": "config/database.yml",
 			"settings":
 			{
-				"buffer_size": 1343,
+				"buffer_size": 669,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/routes.rb",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1917,
+				"buffer_size": 1573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/models/user_spec.rb",
+			"settings":
+			{
+				"buffer_size": 3424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 717,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20130917121452_add_index_to_users_email.rb",
+			"settings":
+			{
+				"buffer_size": 119,
 				"line_ending": "Unix"
 			}
 		}
@@ -100,19 +128,24 @@
 	},
 	"file_history":
 	[
-		"/home/ivan/work/rtut/public/index1.html",
-		"/home/ivan/work/rtut/app/assets/stylesheets/custom.css.scss",
-		"/home/ivan/work/rtut/Gemfile",
+		"/home/ivan/work/rtut/app/models/user.rb",
 		"/home/ivan/work/rtut/app/views/static_pages/home.html.erb",
+		"/home/ivan/work/rtut/app/controllers/users_controller.rb",
+		"/home/ivan/work/rtut/config/routes.rb",
+		"/home/ivan/work/rtut/app/views/users/new.html.erb",
+		"/home/ivan/work/rtut/spec/requests/new_spec.rb",
+		"/home/ivan/work/rtut/spec/requests/static_pages_spec.rb",
+		"/home/ivan/work/rtut/spec/requests/user_pages_spec.rb",
+		"/home/ivan/work/rtut/Gemfile",
+		"/home/ivan/work/rtut/app/assets/stylesheets/custom.css.scss",
 		"/home/ivan/work/rtut/app/views/layouts/application.html.erb",
-		"/home/ivan/work/rtut/app/views/layouts/_shim.html.erb",
 		"/home/ivan/work/rtut/app/views/layouts/_header.html.erb",
 		"/home/ivan/work/rtut/app/views/layouts/_footer.html.erb",
+		"/home/ivan/work/rtut/public/index1.html",
+		"/home/ivan/work/rtut/app/views/layouts/_shim.html.erb",
 		"/home/ivan/work/rtut/app/helpers/application_helper.rb",
 		"/home/ivan/work/rtut/config/database.yml",
-		"/home/ivan/work/rtut/spec/requests/static_pages_spec.rb",
 		"/home/ivan/work/rtut/app/controllers/static_pages_controller.rb",
-		"/home/ivan/work/rtut/config/routes.rb",
 		"/home/ivan/work/rtut/app/views/static_pages/help.html.erb",
 		"/home/ivan/work/rtut/app/views/static_pages/about.html.erb",
 		"/home/ivan/work/rtut/app/views/static_pages/contact.html.erb",
@@ -182,6 +215,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"have_selector",
 			"match",
 			"to",
 			"About",
@@ -223,22 +257,83 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/requests/static_pages_spec.rb",
+					"file": "config/database.yml",
 					"settings":
 					{
-						"buffer_size": 1343,
+						"buffer_size": 669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1113,
-								1113
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "spec/models/user_spec.rb",
+					"settings":
+					{
+						"buffer_size": 3424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2351,
+								2351
 							]
 						],
 						"settings":
@@ -251,25 +346,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 1319.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "config/routes.rb",
+					"buffer": 3,
+					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 1917,
+						"buffer_size": 717,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								799,
-								799
+								717,
+								717
 							]
 						],
 						"settings":
@@ -277,9 +372,36 @@
 							"encoding_helper_confidence": 1.0,
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_helper_encoding_sublime": "UTF-8",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "db/migrate/20130917121452_add_index_to_users_email.rb",
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
