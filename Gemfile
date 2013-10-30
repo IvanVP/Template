@@ -57,11 +57,13 @@ end
 group :test do
 	gem "spork", "~> 0.9.2"
 	gem 'capybara', '1.1.2'
+	gem 'factory_girl_rails', '4.2.1'
 end
 
 # We must use $ bundle install --without production
 group :production do
  gem "pg", "~> 0.16.0"
+ gem 'rails_12factor', '0.0.2'
 end
 
 group :development do

@@ -1,18 +1,23 @@
 Rtut::Application.routes.draw do
-   get "users/new"
+  resources :users
+  resources :sessions, only: [:new, :create, :destroy]
+
+  #get "users/new"
   # get "index"
   # get "static_pages/home"
-  
-  root to: 'static_pages#home'
-  match '/signup',  to: 'users#new', via: :all
+
+  root 'static_pages#home'
+  match '/signup',  to: 'users#new',            via: 'get'
+  match '/signin',  to: 'sessions#new',         via: 'get'
+  match '/signout', to: 'sessions#destroy',     via: 'delete'
   match '/help', to: 'static_pages#help', via: :all
   match '/about', to: 'static_pages#about', via: :all
   match '/contact', to: 'static_pages#contact', via: :all
-  
+
   # Обычноый маршрут пишется так
   # get "static_pages/contact"
 
-  
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -54,7 +59,7 @@ Rtut::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
